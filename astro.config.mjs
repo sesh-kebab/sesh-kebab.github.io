@@ -6,6 +6,6 @@ import sitemap from '@astrojs/sitemap';
 // https://astro.build/config
 export default defineConfig({
 	site: 'https://sesh-kebab.github.io',
-  base: '/sesh-kebab.github.io',
+  base: '/',
 	integrations: [mdx(), sitemap()],
 });
